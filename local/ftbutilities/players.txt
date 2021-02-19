@@ -1,0 +1,22 @@
+// For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
+
+// FakeForgePlayer
+[069be1413c1b45c3b3b160d3f9fcd236]
+parent: vip
+example.permission_with_value: 150
+
+// OptiSar
+[15c95ae631cf45e49e844a5afc51e133]
+parent: coowner, load5, claim250
+
+// SylveonR4
+[c68f9fcf91f64ae2aad9def4e75fa3f2]
+parent: patreon, donation, load1, claim150, load5
+
+// TeuFox
+[5b086a1a91d548cbac8dc5eba3a05c0c]
+parent: owner
+
+// SixFade
+[6630b31ed2cf441a834b42d10711b9ee]
+parent: patreon

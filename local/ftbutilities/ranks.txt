@@ -1,0 +1,130 @@
+// For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
+
+[player]
+power: 1
+default_player_rank: true
+example.permission: true
+example.other_permission: false
+example.permission_with_value: 0
+ftbutilities.homes.max: 3
+ftbutilities.homes.cooldown: 10sec
+ftbutilities.back.cooldown: 10sec
+ftbutilities.back.infinite: true
+ftbutilities.back.tpa: true
+ftbutilities.back.warp: true
+ftbutilities.back.home: true
+ftbutilities.back.back: true
+ftbutilities.claims.max_chunks: 200
+ftbutilities.chunkloader.max_chunks: 1
+command.dynmap.dynmap: true
+
+[vip]
+power: 20
+ftbutilities.chat.name_format: <&bVIP {name}&r>
+example.other_permission: true
+example.permission_with_value: 15
+ftbutilities.back.infinite: true
+
+[admin]
+power: 100
+default_op_rank: true
+ftbutilities.chat.name_format: <&2Mod &a{name}&r>
+example.permission_with_value: 100
+ftbutilities.back.infinite: true
+ftbutilities.homes.max: 15
+ftbutilities.chunkloader..max_chunks: 25
+
+[owner]
+power: 200
+parent: admin
+ftbutilities.chat.name_format: <&6Owner &e{name}&r>
+
+[coowner]
+power: 200
+parent: admin
+ftbutilities.chat.name_format: <&9Co-Owner &3{name}&r>
+ftbutilities.chunkloader..max_chunks: 50
+ftbutilities.chunkloader.max_chunks: 10000
+ftbutilities.claims..max_chunks: 10000
+ftbutilities.claims.max_chunks: 10000
+
+[patreon]
+power: 300
+parent: donator
+ftbutilities.chat.name_format: <&4Patreon &c{name}&r>
+ftbutilities.claims.max_chunks: 1000
+ftbutilities.chunkloader.max_chunks: 10
+ftbutilities.homes.max: 15
+ftbutilities.chunkloader..max_chunks: 25
+
+[claim50]
+power: 7
+parent: donator
+ftbutilities.claims.max_chunks: 250
+
+[claim100]
+power: 8
+parent: donator
+ftbutilities.claims.max_chunks: 300
+
+[claim150]
+power: 9
+parent: donator
+ftbutilities.claims.max_chunks: 350
+
+[claim250]
+power: 10
+parent: donator
+ftbutilities.claims.max_chunks: 450
+
+[load1]
+power: 11
+parent: donator
+ftbutilities.chunkloader.max_chunks: 2
+
+[load2]
+power: 12
+parent: load1
+ftbutilities.chunkloader.max_chunks: 3
+
+[load3]
+power: 13
+parent: load2
+ftbutilities.chunkloader.max_chunks: 4
+
+[load4]
+power: 14
+parent: load3
+ftbutilities.chunkloader.max_chunks: 5
+
+[load5]
+power: 15
+parent: load4
+ftbutilities.chunkloader.max_chunks: 6
+
+[donation]
+power: 50
+parent: player
+ftbutilities.homes.max: 4
+ftbutilities.chat.name_format: <&5Donator &d{name}&r>
+command.ftbutilities.fly: true
+
+[donation1]
+power: 17
+parent: donation
+ftbutilities.homes.max: 5
+
+[donation2]
+power: 18
+parent: donation1
+ftbutilities.homes.max: 6
+
+[donation3]
+power: 19
+parent: donation2
+ftbutilities.homes.max: 7
+
+[donation4]
+power: 20
+parent: donation3
+ftbutilities.homes.max: 8
